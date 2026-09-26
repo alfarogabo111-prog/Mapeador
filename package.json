@@ -1,0 +1,30 @@
+{
+  "name": "gg-keymapper-pro",
+  "version": "3.0.0",
+  "description": "Advanced Keyboard and Mouse Keymapper for Android gaming with floating overlay and touch simulation",
+  "main": "www/index.html",
+  "scripts": {
+    "build": "echo 'Web assets prepared in www/'",
+    "cap:add": "cap add android",
+    "cap:sync": "cap sync android",
+    "cap:open": "cap open android"
+  },
+  "keywords": [
+    "keymapper",
+    "gaming",
+    "android",
+    "mouse",
+    "keyboard",
+    "capacitor",
+    "gg-mouse-pro"
+  ],
+  "author": "GG KeyMapper Team",
+  "license": "MIT",
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  }
+}
